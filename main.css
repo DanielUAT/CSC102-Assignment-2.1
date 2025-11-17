@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(37, 119, 146); /* sets the background color of the page to light blue */
+    color:bisque; /* sets the text color to bisque for better readability */
+}
+
+
+h1
+{
+    text-align: center; /* centers the main heading */
+    font-style: italic; /* makes the font italic */
+    text-decoration: underline; /* underlines the main heading */
+    color: rgb(182, 120, 120); /* sets the color of the main heading */
+}
+
+nav a {
+    color: yellow; /* sets the color of navigation links to yellow */
+    margin: 0 10px; /* adds horizontal spacing between links */
+    display: flex; /* makes links flex items */
+    justify-content: flex-end; /* centers the links horizontally */
+}
+
+img {
+    display: block; /* makes images block elements */
+    margin: 0 auto; /* centers images horizontally */
+    max-width: 100%; /* ensures images do not exceed the width of their container */
+    height: auto; /* maintains aspect ratio of images */
+}
+
+footer {
+    text-align: center; /* centers the footer text */
+    font-size: 0.8em; /* makes the footer text smaller */
+    color: rgb(197, 238, 131); /* sets the footer text color to a green shade */
+    margin-top: 70px; /* adds space above the footer */
+}
+
+ol {
+    margin-left: 20px; /* adds left margin to ordered lists */
+    color:chartreuse; /* sets the text color of ordered lists to chartreuse */
+    font-size: larger; /* increases the font size of ordered lists */
+}
